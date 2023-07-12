@@ -3,17 +3,42 @@
 body {
     font-family: Roboto, sans-serif;
     height: 100vh;
-    margin: 0 125px 0 125px;
+    margin: 0;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #1F2937;
+    padding: 0 125px;
+}
+
+.head-logo {
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
+    font-size: 18px;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    padding: 80px 125px;
+}
+
+.hero-text1 {
+    color: #f9faf8;
+    font-size: 48px;
 }
