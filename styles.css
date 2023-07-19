@@ -15,7 +15,6 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     padding: 0 125px;
-    flex: 1;
 }
 
 .head-logo {
@@ -40,13 +39,23 @@ a {
     display: flex;
     background-color: #1F2937;
     padding: 80px 125px;
-    flex: 1;
 }
 
 .hero-container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 8px;
+}
+
+.button {
+    background-color: #3882f6;
+    align-self: flex-start;
+}
+
+.rome {
+    width: 650px;
+
 }
 
 .hero-text1 {
@@ -61,10 +70,48 @@ a {
 
 .info {
     display: flex;
-    flex: 1;
     justify-content: center;
     align-items: center;
     font-size: 36px;
     font-weight: bolder;
-    padding: 10px 0;
+    padding-top: 50px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    padding: 50px 125px 75px 125px;
+}
+
+.info-graphic {
+    max-width: 200px;
+}
+
+.photo {
+    width: 200px;
+    height: 150px;
+    border: solid #3882f6;
+    border-radius: 15px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    width: 600px;
+}
+
+.speaker-text {
+    
 }
